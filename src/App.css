@@ -6,6 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+@import url('https: //fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+.data{
+    position: absolute;
+width: 1418px;
+height: 956px;
+left: 255px;
+top: 1460px;
+display: flex;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+/* identical to box height, or 30px */
+
+text-align: center;
+letter-spacing: 0.11em;
+
+/* Black 2 */
+
+color: #474747;
+}
+#d-text {
+    position: absolute;
+left: 631px;
+top: 1320px;
+width: 662px;
+height: 50px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* identical to box height, or 50px */
+
+text-align: center;
+letter-spacing: 0.11em;
+
+/* Black 2 */
+
+color: #474747;
 }

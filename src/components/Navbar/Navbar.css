@@ -1,0 +1,44 @@
+.Logo{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 185px;
+    top: 34px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+.list ul{
+    position: absolute;
+    width: 800px;
+    height: 26px;
+    left: 270px;
+    top: 15px;
+   
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    letter-spacing: 0.115em;
+    
+    /* Black 2 */
+    
+    color: #474747;
+}
+.list li{
+    margin-left: 40px;
+}
+.topIcons{
+    position: absolute;
+    display: flex;
+    top: 35px;
+    left: 1500px;
+}

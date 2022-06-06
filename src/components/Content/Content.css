@@ -1,0 +1,207 @@
+.headingtext {
+  position: absolute;
+  width: 437px;
+  height: 26px;
+  left: 180px;
+  top: 90px;
+  /* identical to box height */
+}
+.headingtext h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #474747;
+  display: inline-block;
+}
+#pink-text {
+  color: #ec81b0;
+}
+.small-photos {
+  position: absolute;
+  width: 203px;
+  height: 204px;
+  left: 180px;
+  top: 236px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.small-photos img {
+  margin-bottom: 35px;
+}
+.zoomA{
+   /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+.zoomA:hover{
+   /* ease | ease-in | ease-out | linear */
+ transform: scale(1.2); 
+}
+input[type=checkbox] {
+  display: none;
+}
+.main-photo {
+  position: absolute;
+  width: 690px;
+  height: 936px;
+  left: 433px;
+  top: 236px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: transform ease-in-out 0.3s;
+  cursor: zoom-in;
+}
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(1.2);
+  cursor: zoom-out;
+}
+.content-text {
+  position: absolute;
+  width: 309px;
+  height: 25px;
+  left: 1292px;
+  top: 216px;
+  letter-spacing: 0.11em;
+  color: #474747;
+}
+.content-text h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+}
+.content-text h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+}
+.content-text p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  position: absolute;
+  left: 112px;
+  top: 116px;
+}
+.circles p {
+  position: absolute;
+  width: 119px;
+  height: 18px;
+  left: 1390px;
+  top: 420px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #474747;
+}
+
+#dot1 {
+  position: absolute;
+  left: 1465px;
+  top: 468px;
+  width: 16px;
+  height: 16px;
+  background-color: #30e321;
+  border-radius: 50%;
+}
+#dot2 {
+  position: absolute;
+  left: 1440px;
+  top: 468px;
+  width: 16px;
+  height: 16px;
+  background-color: #ec81b0;
+  border-radius: 50%;
+}
+#dot3 {
+  position: absolute;
+  left: 1415px;
+  top: 468px;
+  width: 16px;
+  height: 16px;
+  background-color: #685ee4;
+  border-radius: 50%;
+}
+.btn {
+  border: none;
+  position: absolute;
+  left: 1293px;
+  top: 536px;
+  width: 365px;
+  height: 60px;
+  background: rgba(71, 71, 71, 0.07);
+}
+.custom-select select {
+  background: rgba(71, 71, 71, 0.07);
+  padding-left: 25px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.11em;
+  color: #474747;
+  border: none;
+}
+#btn2 {
+  position: absolute;
+  width: 365px;
+  height: 60px;
+  left: 1293px;
+  top: 622px;
+  background: #ffff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.11em;
+  color: #474747;
+}
+.content-ul{
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: 1223px;
+    top: 724px;
+    display: flex;
+}
+.content-ul li, a{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+list-style: none;
+margin-right: 50px;
+text-decoration-line: underline;
+color: #474747;
+}
+.des{
+    position: absolute;
+width: 497px;
+height: 580px;
+left: 1263px;
+top: 760px;
+text-align: start;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 130.5%;
+/* or 29px */
+
+letter-spacing: 0.08em;
+
+/* Black 2 */
+
+color: #474747;
+
+}
